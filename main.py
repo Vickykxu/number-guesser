@@ -9,7 +9,6 @@ validAns = False
 for i in range(1,101):
     possibleNums.append(i)
 
-
 def isEven(list):
   temp = []
   listLength = len(possibleNums) + 1
@@ -106,9 +105,9 @@ def oddRoute():
     finalList = greaterOrLess(finalList)
     print(finalList)
     check(finalList)
+
+#Driver Code 
 print("Pick a number between 1-100 \nKeep this number in mind and let me try to guess it!")
-
-
 while validAns == False:
   print(validAns)
   userAns1 = input("Is your number even or odd?\n--> ").lower()
